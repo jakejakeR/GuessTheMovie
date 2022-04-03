@@ -4,7 +4,8 @@ public class GuessTheMovie {
         Game game = new Game();
         // Movie draw
         game.movieDraw("movies.txt");
-        System.out.println(game.randomTitle);
+        System.out.println("Random movie title is: " + game.randomTitle);
 
+        game.titleGuessAlgorithm();
     }
 }
