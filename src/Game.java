@@ -47,6 +47,7 @@ public class Game {
         // User input
         System.out.println("You are guessing: " + hiddenTitle);
         System.out.println("You have guessed (" + wrongAnswers + ") wrong letters: " + wrongLetters);
+        System.out.println("Guess a letter:");
         Scanner userInput = new Scanner(System.in);
         //System.out.println("Enter one letter: ");
         letter = Character.toLowerCase(userInput.next().charAt(0));

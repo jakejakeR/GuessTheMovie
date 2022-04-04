@@ -14,7 +14,7 @@ public class GuessTheMovie {
 
         // Movie draw
         game.movieDraw("movies.txt");
-        System.out.println("Random movie title is: " + game.randomTitle);
+        //System.out.println("Random movie title is: " + game.randomTitle);
 
         // Hiding movie title by replacing its letters to '_'
         game.hideTitle();
