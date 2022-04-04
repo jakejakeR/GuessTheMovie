@@ -3,6 +3,15 @@ public class GuessTheMovie {
         // Initializing GuessTheMovie game
         Game game = new Game();
 
+        // Rules for user
+        System.out.println("""
+                The rules are simple:
+                The computer randomly picks a movie title, and shows you how many letters it's made up of.\s
+                Your goal is to try to figure out the movie by guessing one letter at a time.
+                If a letter is indeed in the title the computer will reveal its correct position in the word,
+                if not, you lose a point. If you lose 10 points, game over!
+                """);
+
         // Movie draw
         game.movieDraw("movies.txt");
         System.out.println("Random movie title is: " + game.randomTitle);

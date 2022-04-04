@@ -39,7 +39,7 @@ public class Game {
     String hideTitle () {
         // Creating new string with letters converted to underscores
         hiddenTitle = randomTitle.replaceAll("(?i)[a-z]", "_"); // (?i) case insensitive
-        System.out.println("Hidden title: " + hiddenTitle);
+        //System.out.println("Hidden title: " + hiddenTitle);
         return hiddenTitle;
     }
 
